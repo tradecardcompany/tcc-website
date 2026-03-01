@@ -232,13 +232,14 @@ a:hover{opacity:.95}
 
 /* Responsive */
 @media (max-width: 1100px){
-  .hero{grid-template-columns: 1fr}
-  .trust{grid-template-columns: repeat(2,1fr)}
-  .grid3{grid-template-columns: 1fr}
-  .h1{font-size:44px}
+  .container{ padding: 22px 22px 60px 22px; }
+  .hero{ grid-template-columns: 1fr; }
+  .trust{ grid-template-columns: repeat(2,1fr); }
+  .grid3{ grid-template-columns: 1fr; }
+  .h1{ font-size: 44px; }
 }
 
 @media (max-width: 700px){
-  .h1{font-size:38px}
-  .wa-float{bottom:18px;right:18px;width:60px;height:60px}
+  .container{ padding: 18px 16px 60px 16px; }
+  .h1{ font-size: 38px; }
 }
