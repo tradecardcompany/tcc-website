@@ -1,0 +1,29 @@
+[
+  {
+    "id": "SEL-001",
+    "name": "Booster Pack (Ejemplo)",
+    "category": "Sellado",
+    "price": 6.00,
+    "currency": "USD",
+    "status": "Disponible",
+    "image": "images/placeholder.jpg"
+  },
+  {
+    "id": "SIN-001",
+    "name": "Single (Ejemplo)",
+    "category": "Singles",
+    "price": 12.00,
+    "currency": "USD",
+    "status": "Disponible",
+    "image": "images/placeholder.jpg"
+  },
+  {
+    "id": "ACC-001",
+    "name": "Toploaders (Pack) (Ejemplo)",
+    "category": "Accesorios",
+    "price": 5.00,
+    "currency": "USD",
+    "status": "Disponible",
+    "image": "images/placeholder.jpg"
+  }
+]
