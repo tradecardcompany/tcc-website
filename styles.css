@@ -24,9 +24,9 @@ a:hover{opacity:.95}
 
 .container{
   width: 100%;
-  max-width: 1400px;
-  margin: 0 auto;
-  padding: 28px 28px 60px 28px;
+  max-width: none;        /* <- clave: sin límite */
+  margin: 0;              /* <- clave: sin centrado */
+  padding: 28px 64px 60px 64px;
 }
 
 /* Fondo glow */
