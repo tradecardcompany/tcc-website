@@ -1,144 +1,79 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Trade Card Company</title>
-  <meta name="description" content="TCG en Panamá. Sellado, Singles y Accesorios. Compras por WhatsApp. Pagos por Yappy o transferencia." />
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Trade Card Company</title>
 
-  <!-- Cache-bust para que siempre cargue lo último -->
-  <link rel="stylesheet" href="styles.css?v=9">
+<link rel="stylesheet" href="styles.css?v=20">
+
 </head>
-
 <body>
-  <div class="bg-glow"></div>
 
-  <div class="container">
-    <header class="header">
-      <a href="index.html" class="brand">
-  <img src="images/logo.jpg" alt="Trade Card Company Logo" class="logo-img" />
-  <div>
-    <div class="brand-name">Trade Card Company</div>
-    <div class="brand-sub">TCG en Panamá • Stock real</div>
-  </div>
-</a>
-      </div>
+<div class="bg-pattern"></div>
 
-      <nav class="nav">
-        <a href="catalog.html">Catálogo</a>
-        <a href="#envios">Envíos</a>
-        <a href="#pagos">Pagos</a>
-        <a class="pill" target="_blank" rel="noopener"
-           href="https://wa.me/50767131015?text=Hola%20TCC%20👋%20Quiero%20hacer%20un%20pedido.">
-          WhatsApp
-        </a>
-      </nav>
-    </header>
+<header class="header">
 
-    <main>
-      <section class="hero">
-        <!-- Columna izquierda -->
-        <div class="card">
-          <h1 class="h1">TCG fuerte. Colección seria.</h1>
-          <p class="subtitle">
-            Sellado • Singles • Accesorios. Envíos en Panamá. Entregas personales o delivery.
-          </p>
-
-          <div class="actions">
-            <a class="btn primary" href="catalog.html">Ver Catálogo</a>
-            <a class="btn" target="_blank" rel="noopener"
-               href="https://wa.me/50767131015?text=Hola%20TCC%20👋%20Quiero%20hacer%20un%20pedido.">
-              Comprar por WhatsApp
-            </a>
-          </div>
-
-          <div class="trust">
-            <div class="chip">📦 <b>Envíos</b> Panamá</div>
-            <div class="chip">💬 <b>Respuesta</b> rápida</div>
-            <div class="chip">🛡️ <b>Empaque</b> protector</div>
-            <div class="chip">💰 <b>Yappy</b> / Transferencia</div>
-          </div>
-
-          <div class="grid3">
-            <div class="box">
-              <div class="title">🔥 Sellado</div>
-              <div class="desc">Booster • ETB • Blisters</div>
-            </div>
-            <div class="box">
-              <div class="title">💎 Singles</div>
-              <div class="desc">Cartas chase • Ilustraciones especiales</div>
-            </div>
-            <div class="box">
-              <div class="title">🛡️ Accesorios</div>
-              <div class="desc">Toploaders • Sleeves • Binders</div>
-            </div>
-          </div>
-        </div>
-
-        <!-- Columna derecha -->
-        <aside class="card">
-          <div style="font-weight:900;margin-bottom:6px;">Lo más buscado</div>
-          <div class="tabs">
-            <span class="tab">Sellado</span>
-            <span class="tab">Singles</span>
-            <span class="tab">Accesorios</span>
-          </div>
-          <p class="subtitle" style="margin-bottom:10px;">
-            Actualizamos stock constantemente. Si no ves algo, escríbenos.
-          </p>
-          <a class="big-cta" href="catalog.html">Explorar ahora</a>
-        </aside>
-      </section>
-
-      <section id="pagos" class="section">
-        <h2>Pagos</h2>
-        <p>
-          Aceptamos <b>Yappy</b> y <b>transferencia bancaria</b>. El pedido se confirma al recibir comprobante.
-        </p>
-      </section>
-
-      <section id="envios" class="section">
-        <h2>Envíos</h2>
-        <ul>
-          <li>Envíos a nivel nacional (Panamá).</li>
-          <li>Entregas personales o delivery coordinado.</li>
-          <li>Empaque protector para máxima seguridad.</li>
-        </ul>
-      </section>
-
-      <section class="section">
-        <h2>Instagram</h2>
-        <p>
-          Mira novedades y drops aquí:
-          <a target="_blank" rel="noopener" href="https://www.instagram.com/tradecardcompany/?hl=en">@tradecardcompany</a>
-        </p>
-      </section>
-    </main>
-
-    <footer class="footer">
-      <div>© <span id="year"></span> Trade Card Company</div>
-      <div style="display:flex;gap:12px;flex-wrap:wrap;">
-        <a href="catalog.html">Catálogo</a>
-        <a target="_blank" rel="noopener"
-           href="https://wa.me/50767131015?text=Hola%20TCC%20👋%20Quiero%20hacer%20un%20pedido.">
-          WhatsApp
-        </a>
-        <a target="_blank" rel="noopener" href="https://www.instagram.com/tradecardcompany/?hl=en">Instagram</a>
-      </div>
-    </footer>
-  </div>
-
-  <!-- Botón flotante WhatsApp -->
-  <a href="https://wa.me/50767131015?text=Hola%20TCC%20👋%20Quiero%20hacer%20un%20pedido."
-     class="wa-float"
-     target="_blank" rel="noopener">
-    <svg viewBox="0 0 32 32" width="26" height="26" fill="white" aria-hidden="true">
-      <path d="M16 .4C7.4.4.4 7.4.4 16c0 2.8.7 5.4 2 7.7L0 32l8.5-2.3c2.2 1.2 4.7 1.8 7.3 1.8 8.6 0 15.6-7 15.6-15.6S24.6.4 16 .4zm0 28.7c-2.3 0-4.5-.6-6.4-1.7l-.5-.3-5 1.3 1.3-4.9-.3-.5C4 21 3.4 18.8 3.4 16 3.4 9.2 9.2 3.4 16 3.4S28.6 9.2 28.6 16 22.8 29.1 16 29.1zm7.2-9.3c-.4-.2-2.4-1.2-2.7-1.3-.4-.1-.6-.2-.9.2-.2.4-1 1.3-1.2 1.6-.2.2-.4.3-.8.1-.4-.2-1.6-.6-3-1.9-1.1-1-1.9-2.3-2.1-2.7-.2-.4 0-.6.1-.8.1-.1.4-.4.6-.6.2-.2.2-.4.4-.6.1-.2.1-.5 0-.7-.1-.2-.9-2.1-1.3-2.9-.3-.8-.6-.7-.9-.7h-.7c-.2 0-.7.1-1 .5-.3.4-1.3 1.2-1.3 3 0 1.8 1.3 3.5 1.5 3.7.2.2 2.6 4 6.3 5.6.9.4 1.6.6 2.2.8.9.3 1.7.3 2.3.2.7-.1 2.4-1 2.7-1.9.3-.9.3-1.7.2-1.9-.1-.2-.4-.3-.8-.5z"/>
-    </svg>
+  <a href="index.html" class="logo">
+    <img src="images/Logo.jpg" alt="Trade Card Company">
   </a>
 
-  <script>
-    document.getElementById("year").textContent = new Date().getFullYear();
-  </script>
+  <nav class="menu">
+    <a href="catalog.html">Catálogo</a>
+    <a href="#envios">Envíos</a>
+    <a href="#pagos">Pagos</a>
+  </nav>
+
+</header>
+
+<section class="hero">
+
+  <div class="hero-left">
+    <h1>TCG Fuerte.</h1>
+    <p>Sellado • Singles • Accesorios en Panamá.</p>
+
+    <div class="hero-buttons">
+      <a href="catalog.html" class="btn primary">Ver Catálogo</a>
+      <a href="https://wa.me/50767131015?text=Hola%20TCC%20quiero%20hacer%20un%20pedido"
+         class="btn">Comprar por WhatsApp</a>
+    </div>
+  </div>
+
+  <div class="hero-right">
+    <div class="info-card">
+      <h3>Compras rápidas</h3>
+      <p>Pagos por Yappy o transferencia bancaria.</p>
+      <p>Envíos en todo Panamá o entregas personales.</p>
+    </div>
+  </div>
+
+</section>
+
+<section id="pagos" class="section">
+  <h2>Información de Pagos</h2>
+  <p>Aceptamos Yappy y transferencia bancaria. El pedido se confirma al enviar comprobante.</p>
+</section>
+
+<section id="envios" class="section">
+  <h2>Política de Envíos</h2>
+  <p>Realizamos envíos a todo Panamá. También entregas personales coordinadas.</p>
+</section>
+
+<footer class="footer">
+
+  <div>© 2025 Trade Card Company</div>
+
+  <div class="socials">
+    <a href="https://www.instagram.com/tradecardcompany/?hl=en" target="_blank">Instagram</a>
+    <a href="https://www.tiktok.com/" target="_blank">TikTok</a>
+  </div>
+
+</footer>
+
+<a href="https://wa.me/50767131015?text=Hola%20TCC%20quiero%20hacer%20un%20pedido"
+   class="wa-float">
+   💬
+</a>
+
 </body>
 </html>
